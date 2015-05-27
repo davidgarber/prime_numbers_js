@@ -1,0 +1,36 @@
+.is-palindrome {
+  display: none;
+}
+
+#result-wrapper {
+  display: none;
+}
+
+body {
+  background-image: url("http://s.ngm.com/2014/03/black-holes/img/black-holes-opener-615.jpg");
+  background-size:cover;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 100px;
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+  border: 1px solid purple;
+  }
+
+  .button-wrapper{
+    text-align: center;
+  }
+
+  #result-wrapper {
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+}
+
+#result-wrapper p:first-child {
+  font-size: 15px;
+}
